@@ -1,0 +1,144 @@
+body
+{
+	height:100vh;
+	width:100%;
+	margin:0;
+	padding:0;
+	line-height: 1.5;
+	font-family: 'Times New Roman';
+	background: #ffffff;
+}
+
+.s_header
+{
+	height:15%;
+	width:84%;
+	margin:0 8%;
+	
+	display:inline-block;
+}
+.s_orgName
+{
+	float:left;
+	width:66%;
+	color:#1B9596;
+	margin:1% 2%;
+	padding:0;
+	font-size:40px;
+}
+.s_shortLinksUl
+{
+	width:15%;
+	margin:2%  0 0 15%;
+	padding:0;
+	float:left;
+	display: inline-block;
+	list-style: none;
+}
+.s_shortLinksUl li
+{
+float:left;
+color:#1B9596;
+margin:0 2%;
+padding:5px 10px;
+font-size:18px;
+font-weight: bold;
+}
+.s_form
+{
+	width:50%;
+	margin:0.25% auto;
+	padding:0;
+	border-radius: 10px;
+	moz-border-radius:10px;
+	border:2px solid rgba(0,0,0,0.3);
+}
+.s_formHead
+{
+	color:white;
+	background: rgba(0,0,0,0.3);
+	margin:0;
+	border:none;
+	padding:5px 10px;
+	border-radius: 10px 10px 0 0;
+	moz-border-radius: 10px 10px 0 0;
+}
+.s_form p
+{
+	padding:2px 25px;
+	font-size: 18px;
+	margin:0;
+	font-weight: bold;
+	color: rgba(0,0,0,0.6);
+}
+.s_input
+{
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	width:92%;
+	padding:0;
+	margin:0 4%;
+	font-size:16px;
+}
+.s_dropDown
+{
+	background:#1ABC9C;
+	height:35px;
+	width:92%;
+	margin:0 4%;
+	padding: 2px;
+	border-radius: 5px;
+	font-size: 16px;
+	moz-border-radius: 5px;
+	border: none;
+	color: white;
+}
+.s_buttonBox
+{
+	background: rgba(0,0,0,0.15);
+	margin:0 0 -6px 0;
+	width: 97.5%;
+	padding: 10px;
+	border-radius: 0 0 10px 10px;
+	moz-border-radius: 0 0 10px 10px;
+	border-top: 2px solid rgba(0,0,0,0.2);
+	display: inline-block;
+}
+.s_submit
+{
+	background: #1ABC9C;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	padding: 10px 25px;
+	float:right;
+	font-weight: bold;
+}
+.s_radioHolder
+{
+	width:40%;
+	float:left;
+	margin-left: 8%;
+	color: rgba(0,0,0,0.6);
+	font-size:18px;
+
+}
+.s_radioHolder input
+{
+	width:10%;
+}
+.s_file
+{
+	width: 92%;
+	margin: 0 4% 2% 4%;
+	padding: 7px 0 0 0;
+	height: 30px;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	color: rgba(0,0,0,0.6);
+	font-weight: bold;
+	font-size:16px;
+	border: 2px solid rgba(0,0,0,0.2);
+}
